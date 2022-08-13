@@ -1,0 +1,17 @@
+
+body {
+    animation: is-bouncing 1s cubic-bezier(0,.88,1,.56) alternate infinite;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body i {
+    font-size: 5.5em;
+}
+
+@keyframes is-bouncing {
+    to {
+        transform: translateY(30px);
+    }
+}
